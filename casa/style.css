@@ -1,0 +1,172 @@
+body{
+    width: 450px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+/* CASA */
+
+.casa{
+    position: relative;
+}
+
+
+/* TELHADO */
+
+.telhado {
+    background-color: #B0262C;
+    width: 365px;
+    height: 30px;
+    position: absolute;    
+    top: 93px;
+}
+
+.telhado.telhado-esquerdo{
+    left: -77px;
+    transform: rotate(-45deg);
+}
+
+.telhado.telhado-direito{
+    right: -77px;
+    transform: rotate(-135deg);
+}
+
+
+/* CHAMINE */
+
+.chamine{
+    background-color: #1B181A;
+    width: 39px;
+    position: absolute;
+    height: 65px;
+    top: 50px;
+    left: 78px;
+    z-index: -1;
+}
+
+.topo-chamine{
+    background-color: #B0262C;
+    width: 63px;
+    position: absolute;
+    height: 30px;
+    top: 25px;
+    left: 66px;
+    border-radius: 10px;
+}
+
+
+/* MADEIRAS */
+
+.tabua{
+    background-color: #E0C37F;
+    height: 20px;
+    border-top: 3px solid #C4A662;
+    margin: auto;
+}
+
+/* JANELA */
+
+.janela-redonda{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: calc(50% - 57px);
+    border-radius: 50%;
+    background-color: #96C8DC;
+    border: 7px solid #201F1F;
+}
+
+.janela-redonda .tabua-janela{
+    height: 100px;
+    width: 8px;
+    background-color: #50473E;
+}
+
+.janela-redonda .tabua-janela.tabua-janela-pe{
+    margin-left: calc(50% - 4px);
+
+}
+
+.janela-redonda .tabua-janela.tabua-janela-deitado{
+    position: absolute;
+    top: 0px;
+    left: 46px;
+    transform: rotate(90deg);
+}
+
+.janela-quadrada{
+    background-color: #96C8DE;
+    height: 75px;
+    width: 75px;
+    position: absolute;
+    border: 8px solid #49474E;
+    bottom: 117px;
+}
+
+.janela-quadrada.janela-quadrada-esquerda{
+    left: 40px;
+}
+
+.janela-quadrada.janela-quadrada-direita{
+    right: 40px;
+}
+
+.janela-quadrada .janela-base{
+    background-color: #191919;
+    height: 30px;
+    width: 105px;
+    position: absolute;
+    bottom: -30px;
+    left: -15px;
+}
+
+/* PORTA */
+
+.porta{
+    height: 200px;
+    position: absolute;
+    margin-left: calc(50% - 55px);
+    width: 95px;
+    bottom: -8px;
+    background-color: #B0262C;
+    border: 8px solid #4F4650;
+}
+
+.porta .bloco-porta{
+    border: 2px solid #f57676;
+    border-style: inset;
+    height: 75px;
+    width: 70px;
+    margin: auto;
+}
+
+.porta .bloco-porta:nth-of-type(1){
+    margin-top: 8px;
+}
+
+.porta .bloco-porta:nth-of-type(2){
+    margin-top: 24px;
+}
+
+.porta .macaneta{
+    background-color: #141F1B;
+    position: absolute;
+    right: 8px;
+    top: calc(50% - 6px);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+
+/* BASE */
+
+.base{
+    width: 500px;
+    height: 16px;
+    left: -24px;
+    position: absolute;
+    background-color: #4B4B49;
+    border-radius: 5px 5px 0px 0;
+    border-bottom: 3px solid black;
+}
