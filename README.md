@@ -8,3 +8,7 @@ https://marcelorose.github.io/WEB-DESIGN/15-03-2021/index.html
 
 Casa
 https://marcelorose.github.io/WEB-DESIGN/casa/casa.html
+
+Curriculum
+https://marcelorose.github.io/WEB-DESIGN/curriculum/curriculum.html
+
