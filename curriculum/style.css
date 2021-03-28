@@ -207,6 +207,7 @@ body{
     margin: 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .curriculum .right-container .section-item.competencias-section-item .competencia-container .competencia-item{
