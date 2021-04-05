@@ -1,14 +1,18 @@
 # WEB-DESIGN
 
-08/03/21 - Botão
-https://marcelorose.github.io/WEB-DESIGN/08-03-2021/botao.html
+Botão
+https://marcelorose.github.io/WEB-DESIGN/botao/botao.html
 
-15/03/21 - Headings
-https://marcelorose.github.io/WEB-DESIGN/15-03-2021/index.html
+Headings
+https://marcelorose.github.io/WEB-DESIGN/headings/headings.html
 
 Casa
 https://marcelorose.github.io/WEB-DESIGN/casa/casa.html
 
 Curriculum
 https://marcelorose.github.io/WEB-DESIGN/curriculum/curriculum.html
+
+Tabela
+https://marcelorose.github.io/WEB-DESIGN/tabela/tabela.html
+
 
