@@ -1,0 +1,77 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+}
+
+nav{
+    position: fixed;
+    height: 56px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav a{
+    padding: 14px 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    padding: 30px;
+}
+
+.container-content{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-imagens{
+    display: flex;
+    justify-content: center;
+}
+
+.container-nome{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e5f7;
+    background-color: #06460d;
+    background-image: url("capa.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+#nome{
+    background: -webkit-linear-gradient(#FC7600, #FFD600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Norican', cursive;
+    margin: 0;
+    opacity: 1;
+    text-align: center;
+    font-size: 100px;
+}
+
+i{
+    font-size: 32px;
+}
+
+.contato a:first-of-type{
+    margin-right: 5px;
+}
+
