@@ -21,6 +21,15 @@ nav{
     justify-content: flex-start;
 }
 
+@media only screen and (max-width: 618px) {
+    nav {
+      height: 80px;
+    }
+    nav a{
+        text-align: center;
+    }
+  }
+
 nav a{
     padding: 14px 15px;
 }
@@ -28,6 +37,17 @@ nav a{
 a{
     text-decoration: none;
     color: white;
+}
+
+#nome{
+    background: -webkit-linear-gradient(#FC7600, #FFD600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Norican', cursive;
+    margin: 0;
+    opacity: 1;
+    text-align: center;
+    font-size: 100px;
 }
 
 .container{
@@ -44,6 +64,10 @@ a{
     justify-content: center;
 }
 
+.container-imagens img{
+    width: 33.33%;
+}
+
 .container-nome{
     height: 100vh;
     display: flex;
@@ -56,22 +80,20 @@ a{
     background-size: cover;
 }
 
-#nome{
-    background: -webkit-linear-gradient(#FC7600, #FFD600);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Norican', cursive;
-    margin: 0;
-    opacity: 1;
-    text-align: center;
-    font-size: 100px;
+.container.sobre{
+    text-align: justify;
 }
+
 
 i{
     font-size: 32px;
 }
 
-.contato a:first-of-type{
+.contato a{
     margin-right: 5px;
+}
+
+.contato a:last-of-type{
+    margin-right: 0;
 }
 
