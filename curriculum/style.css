@@ -83,13 +83,22 @@ body{
     text-align: justify;
 }
 
-.curriculum .left-container .section.personal-info-section table{
+.curriculum .section.personal-info-section{
+    color: white;
+}
+
+.curriculum .section.personal-info-section div{
+    margin: auto;
+    display: table;
+}
+
+.curriculum .section.personal-info-section table{
     margin-top: 13px;
     text-align: left;
     font-size: 12px;
 }
 
-.curriculum .left-container .section.personal-info-section table td:nth-child(even){
+.curriculum .section.personal-info-section table td:nth-child(even){
     padding-left: 12px;
 }
 
@@ -255,10 +264,16 @@ body{
     .curriculum .right-container .orange-bg{
         display: block;
     }
+    .curriculum .right-container .orange-bg{
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 1021px) {
     .curriculum .right-container .orange-bg{
+        display: none;
+    }
+    .curriculum .right-container .green-bg{
         display: none;
     }
 }
