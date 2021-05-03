@@ -56,16 +56,23 @@ body{
     padding: 50px;
 }
 
-.curriculum .left-container .section .avatar{
+.curriculum .section.orange-bg div{
+    color: white;
+    margin: auto;
+    display: table;
+    text-align: center;
+}
+
+.curriculum .section .avatar{
     height: 170px;
     border-radius: 50%;
 }
 
-.curriculum .left-container .section .nome{
+.curriculum .section .nome{
     margin-top: 10px;
 }
 
-.curriculum .left-container .section .cargo{
+.curriculum .section .cargo{
     font-weight: normal;
     font-size: 17px;
 }
@@ -234,4 +241,24 @@ body{
 
 .curriculum .right-container .interesses-section .section-item.interesses-section-item .interesse-item p{
     margin-top: 0;
+}
+
+
+@media only screen and (max-width: 1020px) {
+    .curriculum .left-container{
+        display: none;
+    }
+    .curriculum .right-container{
+        width: 100%;
+        max-width: 100%;
+    }
+    .curriculum .right-container .orange-bg{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1021px) {
+    .curriculum .right-container .orange-bg{
+        display: none;
+    }
 }
