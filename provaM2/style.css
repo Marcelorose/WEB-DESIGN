@@ -1,0 +1,254 @@
+html, body{
+    font-family: 'Inter', sans-serif;
+    margin: auto;
+    height: 100%;
+    max-width: 1920px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.purple-text{
+    color: #772CE8;
+}
+
+nav{
+    padding: 15px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+nav #logo{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+nav div{
+    align-items: center;
+    display: flex;
+}
+
+nav .nav-left, nav .nav-right{
+    display: flex;
+}
+
+nav .nav-left{
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+nav .nav-left #botao-procurar{
+    border-right: 2px solid #E5E5E5;
+}
+
+nav .nav-left div{
+    display: flex;
+    padding: 6px 15px;
+}
+
+nav .nav-right input,
+nav .nav-right div,
+nav .nav-right button{    
+    padding: 7px 9px;
+    margin-left: 5px;
+}
+
+nav .nav-right input,
+nav .nav-right button{    
+    border: 0;
+}
+
+nav .nav-right input{    
+    background-color: #E5E5E5;
+    border-radius: 5px 0 0 5px;
+    z-index: 2;
+    color: #505050;
+    width: 220px;
+}
+
+nav .nav-right button{
+    margin-left: 0;
+    color: #e8e8e8;
+}
+
+#botao-entrar,
+#botao-cadastrar{
+    padding: 7px 9px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+#botao-entrar{
+    background-color: #e8e8e8;    
+}
+
+#botao-cadastrar{
+    background-color: #772CE8;
+    color: white;    
+}
+
+nav .nav-right button i{    
+    color: #c5c5c5;
+    cursor: pointer;
+}
+
+nav .nav-right i{        
+    cursor: pointer;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+}
+
+.left-section{
+    width: 30%;
+}
+
+.left-section .card{
+    width: 50%;
+    padding: 30px;
+}
+
+.left-section .card .card-title{
+    margin: 0 0 5px 0;    
+    font-size: 22px;
+}
+
+.left-section .card .card-text{
+    font-size: 13px;
+}
+
+.right-section{
+    width: calc(70% - 30px);
+}
+
+.right-section h4,
+.right-section h3,
+.right-section p{
+    margin: 0;
+}
+
+.right-section .section-ao-vivo,
+.right-section .section-categorias{
+    width: 100%;
+    background-color: #F7F7F9;
+    padding: 15px;
+}
+
+.section-ao-vivo > h3,
+.section-categorias > h3{
+    margin-bottom: 10px;
+}
+
+.section-ao-vivo .container-lives,
+.section-categorias .container-categorias{
+    display: flex;
+}
+
+.right-section .card{
+    padding: 0 7px;    
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.right-section .card .tags .tag{
+    color: #6b6b6b;
+    font-size: 11px;
+    background-color: #dedede;
+    padding: 2px 6px;
+    border-radius: 25px;
+}
+
+.right-section .section-ao-vivo .card .tags{
+    padding-left: 45px;
+}
+
+.right-section .section-ao-vivo .card{
+    padding: 0 7px;
+    width: calc(33.33% - 14px);
+    font-weight: bold;
+}
+
+.right-section .section-ao-vivo .container-live-img{
+    position: relative;
+}
+
+.right-section .section-ao-vivo .ao-vivo-badge,
+.right-section .section-ao-vivo .viewers-badge{
+    position: absolute;
+    left: 7px;
+    font-size: 12px;
+    border-radius: 4px;  
+}
+
+.right-section .section-ao-vivo .ao-vivo-badge{
+    top: 7px;
+    color: white;
+    padding: 2px 5px;
+    background-color: red;
+}
+
+.right-section .section-ao-vivo .viewers-badge{
+    bottom: 9px;
+    color: white;
+    padding: 2px 5px;
+    background-color: rgba(0,0,0,0.6);
+}
+
+
+.right-section .section-categorias{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.right-section .section-categorias .card{
+    padding: 0 7px;
+    width: calc(16.66% - 14px);
+    font-weight: bold;    
+}
+
+.right-section .card p{
+    color: #777;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.right-section .card .live-img,
+.right-section .card .categoria-img{
+    width: 100%;
+}
+
+.right-section .card .profile-img{
+    float: left;
+    border-radius: 50%;
+    margin-right: 10px;
+    height: 36px;
+}
+
+.right-section .card .card-title{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #772CE8;
+    height: 16px;
+    width: 100%;
+    max-width: 1920px;
+}
