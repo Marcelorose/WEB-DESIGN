@@ -14,6 +14,14 @@ a{
     color: #772CE8;
 }
 
+.purple-hover:hover{
+    color: #772CE8 !important;
+}
+
+.grey-bg-hover:hover{
+    color: #c7c7c7 !important;
+}
+
 nav{
     padding: 15px;
     height: 45px;
@@ -90,9 +98,17 @@ nav .nav-right button{
     background-color: #e8e8e8;    
 }
 
+#botao-entrar:hover{
+    background-color: #c3c3c3;    
+}
+
 #botao-cadastrar{
     background-color: #772CE8;
     color: white;    
+}
+
+#botao-cadastrar:hover{
+    background-color: #9155ec;    
 }
 
 nav .nav-right button i{    
@@ -160,12 +176,21 @@ nav .nav-right i{
     cursor: pointer;
 }
 
+.right-section .card .card-title:hover,
+.right-section .card > p:hover{
+    color: #772CE8;
+}
+
 .right-section .card .tags .tag{
     color: #6b6b6b;
     font-size: 11px;
     background-color: #dedede;
     padding: 2px 6px;
     border-radius: 25px;
+}
+
+.right-section .card .tags .tag:hover{
+    background-color: #c3c3c3;
 }
 
 .right-section .section-ao-vivo .card .tags{
